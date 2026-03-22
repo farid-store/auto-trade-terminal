@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "framework": "nextjs",
+  "functions": {
+    "pages/api/**/*.js": {
+      "maxDuration": 30
+    }
+  },
+  "env": {
+    "BINANCE_API_KEY": "@binance_api_key",
+    "BINANCE_API_SECRET": "@binance_api_secret",
+    "BYBIT_API_KEY": "@bybit_api_key",
+    "BYBIT_API_SECRET": "@bybit_api_secret",
+    "OKX_API_KEY": "@okx_api_key",
+    "OKX_API_SECRET": "@okx_api_secret",
+    "OKX_PASSPHRASE": "@okx_passphrase",
+    "MT5_SERVER_URL": "@mt5_server_url",
+    "MT5_ACCOUNT": "@mt5_account",
+    "MT5_PASSWORD": "@mt5_password"
+  }
+}
